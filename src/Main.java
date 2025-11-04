@@ -6,7 +6,6 @@ public class Main {
         Teacher tc1 = new Teacher("Dr. Tran Van C", "c@school.edu", "GV001", "PhD");
         Advisor ad1 = new Advisor("Nguyen Van D", "d@company.com");
 
-    // Use Person as the advisor type in KLTN to avoid generic invariance issues
     KLTN<Student, Person> kltn1 = new KLTN<>("AI in Healthcare", st1, tc1);
     KLTN<Student, Person> kltn2 = new KLTN<>("Blockchain in Finance", st2, ad1);
 
